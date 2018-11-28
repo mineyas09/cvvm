@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A1974469C7F509AD47C633 /* Pods_Musy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42AE8CEEF097D801CFFED89 /* Pods_Musy.framework */; };
+		CD1E7D2221AE405600A9CCA0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E7D2121AE405600A9CCA0 /* SearchViewController.swift */; };
+		CD1E7D2621AE414500A9CCA0 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E7D2521AE414500A9CCA0 /* VideosViewController.swift */; };
+		CD1E7D2A21AE488300A9CCA0 /* ArtisProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E7D2921AE488300A9CCA0 /* ArtisProfileViewController.swift */; };
 		CD2FA07F21ADDE7700E0BADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA07E21ADDE7700E0BADA /* AppDelegate.swift */; };
 		CD2FA08121ADDE7700E0BADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA08021ADDE7700E0BADA /* ViewController.swift */; };
 		CD2FA08421ADDE7700E0BADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA08221ADDE7700E0BADA /* Main.storyboard */; };
 		CD2FA08721ADDE7700E0BADA /* Musy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA08521ADDE7700E0BADA /* Musy.xcdatamodeld */; };
 		CD2FA08921ADDE7C00E0BADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA08821ADDE7C00E0BADA /* Assets.xcassets */; };
 		CD2FA08C21ADDE7C00E0BADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA08A21ADDE7C00E0BADA /* LaunchScreen.storyboard */; };
+		CD2FA09421ADE8D800E0BADA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA09321ADE8D800E0BADA /* MainTabBarViewController.swift */; };
+		CD2FA09621ADE97400E0BADA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA09521ADE97400E0BADA /* HomeViewController.swift */; };
+		CD2FA09B21ADF9FB00E0BADA /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA09A21ADF9FB00E0BADA /* Genre.swift */; };
+		CD2FA09D21ADFB1E00E0BADA /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA09C21ADFB1E00E0BADA /* Playlist.swift */; };
+		CD2FA09F21ADFF6A00E0BADA /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA09E21ADFF6A00E0BADA /* Artist.swift */; };
+		CD2FA0A121ADFFE600E0BADA /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0A021ADFFE600E0BADA /* Album.swift */; };
+		CD2FA0A321AE049B00E0BADA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0A221AE049B00E0BADA /* Track.swift */; };
+		CD2FA0A521AE09F400E0BADA /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0A421AE09F400E0BADA /* MusicPlayerViewController.swift */; };
+		CD2FA0B121AE0FB400E0BADA /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA0A721AE0FB400E0BADA /* HeaderCell.xib */; };
+		CD2FA0B221AE0FB400E0BADA /* SeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0A821AE0FB400E0BADA /* SeparatorCell.swift */; };
+		CD2FA0B321AE0FB400E0BADA /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0A921AE0FB400E0BADA /* CollectionCell.swift */; };
+		CD2FA0B421AE0FB400E0BADA /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0AA21AE0FB400E0BADA /* ArtistCell.swift */; };
+		CD2FA0B521AE0FB400E0BADA /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0AB21AE0FB400E0BADA /* HeaderCell.swift */; };
+		CD2FA0B621AE0FB400E0BADA /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0AC21AE0FB400E0BADA /* TextCell.swift */; };
+		CD2FA0B721AE0FB400E0BADA /* ArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA0AD21AE0FB400E0BADA /* ArtistCell.xib */; };
+		CD2FA0B821AE0FB400E0BADA /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA0AE21AE0FB400E0BADA /* CollectionCell.xib */; };
+		CD2FA0B921AE0FB400E0BADA /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA0AF21AE0FB400E0BADA /* TextCell.xib */; };
+		CD2FA0BA21AE0FB400E0BADA /* SeparatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA0B021AE0FB400E0BADA /* SeparatorCell.xib */; };
+		CD2FA0BF21AE0FDE00E0BADA /* SeparatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0BB21AE0FDE00E0BADA /* SeparatorViewModel.swift */; };
+		CD2FA0C021AE0FDE00E0BADA /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0BC21AE0FDE00E0BADA /* ArtistViewModel.swift */; };
+		CD2FA0C121AE0FDE00E0BADA /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0BD21AE0FDE00E0BADA /* HeaderViewModel.swift */; };
+		CD2FA0C221AE0FDE00E0BADA /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0BE21AE0FDE00E0BADA /* CollectionViewModel.swift */; };
+		CD2FA0DC21AE294F00E0BADA /* CollectionViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0D521AE294E00E0BADA /* CollectionViewSection.swift */; };
+		CD2FA0DD21AE294F00E0BADA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0D621AE294F00E0BADA /* CollectionViewController.swift */; };
+		CD2FA0DE21AE294F00E0BADA /* CollectionViewCell+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0D721AE294F00E0BADA /* CollectionViewCell+Reuse.swift */; };
+		CD2FA0DF21AE294F00E0BADA /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0D821AE294F00E0BADA /* Grid.swift */; };
+		CD2FA0E021AE294F00E0BADA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0D921AE294F00E0BADA /* CollectionViewCell.swift */; };
+		CD2FA0E121AE294F00E0BADA /* CollectionViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0DA21AE294F00E0BADA /* CollectionViewViewModel.swift */; };
+		CD2FA0E221AE294F00E0BADA /* CollectionViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0DB21AE294F00E0BADA /* CollectionViewSource.swift */; };
+		CD2FA0E421AE33BD00E0BADA /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0E321AE33BD00E0BADA /* UserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F36FDEA697CE0BA213884DD /* Pods-Musy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Musy/Pods-Musy.debug.xcconfig"; sourceTree = "<group>"; };
+		58C5A0B2F0158CA30027C986 /* Pods-Musy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Musy/Pods-Musy.release.xcconfig"; sourceTree = "<group>"; };
+		B42AE8CEEF097D801CFFED89 /* Pods_Musy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E7D2121AE405600A9CCA0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CD1E7D2521AE414500A9CCA0 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		CD1E7D2921AE488300A9CCA0 /* ArtisProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisProfileViewController.swift; sourceTree = "<group>"; };
 		CD2FA07B21ADDE7700E0BADA /* Musy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2FA07E21ADDE7700E0BADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2FA08021ADDE7700E0BADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +64,36 @@
 		CD2FA08821ADDE7C00E0BADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2FA08B21ADDE7C00E0BADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2FA08D21ADDE7C00E0BADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2FA09321ADE8D800E0BADA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		CD2FA09521ADE97400E0BADA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD2FA09A21ADF9FB00E0BADA /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		CD2FA09C21ADFB1E00E0BADA /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		CD2FA09E21ADFF6A00E0BADA /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		CD2FA0A021ADFFE600E0BADA /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CD2FA0A221AE049B00E0BADA /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CD2FA0A421AE09F400E0BADA /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		CD2FA0A721AE0FB400E0BADA /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		CD2FA0A821AE0FB400E0BADA /* SeparatorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorCell.swift; sourceTree = "<group>"; };
+		CD2FA0A921AE0FB400E0BADA /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		CD2FA0AA21AE0FB400E0BADA /* ArtistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		CD2FA0AB21AE0FB400E0BADA /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CD2FA0AC21AE0FB400E0BADA /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		CD2FA0AD21AE0FB400E0BADA /* ArtistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistCell.xib; sourceTree = "<group>"; };
+		CD2FA0AE21AE0FB400E0BADA /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		CD2FA0AF21AE0FB400E0BADA /* TextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		CD2FA0B021AE0FB400E0BADA /* SeparatorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorCell.xib; sourceTree = "<group>"; };
+		CD2FA0BB21AE0FDE00E0BADA /* SeparatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorViewModel.swift; sourceTree = "<group>"; };
+		CD2FA0BC21AE0FDE00E0BADA /* ArtistViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		CD2FA0BD21AE0FDE00E0BADA /* HeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
+		CD2FA0BE21AE0FDE00E0BADA /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		CD2FA0D521AE294E00E0BADA /* CollectionViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewSection.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewSection.swift"; sourceTree = "<group>"; };
+		CD2FA0D621AE294F00E0BADA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewController.swift"; sourceTree = "<group>"; };
+		CD2FA0D721AE294F00E0BADA /* CollectionViewCell+Reuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CollectionViewCell+Reuse.swift"; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewCell+Reuse.swift"; sourceTree = "<group>"; };
+		CD2FA0D821AE294F00E0BADA /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/Grid.swift"; sourceTree = "<group>"; };
+		CD2FA0D921AE294F00E0BADA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewCell.swift"; sourceTree = "<group>"; };
+		CD2FA0DA21AE294F00E0BADA /* CollectionViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewViewModel.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewViewModel.swift"; sourceTree = "<group>"; };
+		CD2FA0DB21AE294F00E0BADA /* CollectionViewSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewSource.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewSource.swift"; sourceTree = "<group>"; };
+		CD2FA0E321AE33BD00E0BADA /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +101,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A1974469C7F509AD47C633 /* Pods_Musy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		943709FE0610C5971D911188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42AE8CEEF097D801CFFED89 /* Pods_Musy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80CB7D395A9BDCE6738E9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F36FDEA697CE0BA213884DD /* Pods-Musy.debug.xcconfig */,
+				58C5A0B2F0158CA30027C986 /* Pods-Musy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD2FA07221ADDE7700E0BADA = {
 			isa = PBXGroup;
 			children = (
 				CD2FA07D21ADDE7700E0BADA /* Musy */,
 				CD2FA07C21ADDE7700E0BADA /* Products */,
+				C80CB7D395A9BDCE6738E9B9 /* Pods */,
+				943709FE0610C5971D911188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +146,12 @@
 		CD2FA07D21ADDE7700E0BADA /* Musy */ = {
 			isa = PBXGroup;
 			children = (
+				CD2FA0D421AE293200E0BADA /* Framework */,
+				CD2FA0A621AE0ADD00E0BADA /* ViewModels */,
+				CD2FA09921ADF9C800E0BADA /* Cells */,
+				CD2FA09821ADF9BA00E0BADA /* Models */,
+				CD2FA09721ADF9A800E0BADA /* Controllers */,
 				CD2FA07E21ADDE7700E0BADA /* AppDelegate.swift */,
-				CD2FA08021ADDE7700E0BADA /* ViewController.swift */,
 				CD2FA08221ADDE7700E0BADA /* Main.storyboard */,
 				CD2FA08821ADDE7C00E0BADA /* Assets.xcassets */,
 				CD2FA08A21ADDE7C00E0BADA /* LaunchScreen.storyboard */,
@@ -67,6 +161,75 @@
 			path = Musy;
 			sourceTree = "<group>";
 		};
+		CD2FA09721ADF9A800E0BADA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FA09521ADE97400E0BADA /* HomeViewController.swift */,
+				CD2FA09321ADE8D800E0BADA /* MainTabBarViewController.swift */,
+				CD2FA08021ADDE7700E0BADA /* ViewController.swift */,
+				CD2FA0A421AE09F400E0BADA /* MusicPlayerViewController.swift */,
+				CD2FA0E321AE33BD00E0BADA /* UserProfileViewController.swift */,
+				CD1E7D2121AE405600A9CCA0 /* SearchViewController.swift */,
+				CD1E7D2521AE414500A9CCA0 /* VideosViewController.swift */,
+				CD1E7D2921AE488300A9CCA0 /* ArtisProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD2FA09821ADF9BA00E0BADA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FA09A21ADF9FB00E0BADA /* Genre.swift */,
+				CD2FA09C21ADFB1E00E0BADA /* Playlist.swift */,
+				CD2FA09E21ADFF6A00E0BADA /* Artist.swift */,
+				CD2FA0A021ADFFE600E0BADA /* Album.swift */,
+				CD2FA0A221AE049B00E0BADA /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD2FA09921ADF9C800E0BADA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FA0AA21AE0FB400E0BADA /* ArtistCell.swift */,
+				CD2FA0AD21AE0FB400E0BADA /* ArtistCell.xib */,
+				CD2FA0A921AE0FB400E0BADA /* CollectionCell.swift */,
+				CD2FA0AE21AE0FB400E0BADA /* CollectionCell.xib */,
+				CD2FA0AB21AE0FB400E0BADA /* HeaderCell.swift */,
+				CD2FA0A721AE0FB400E0BADA /* HeaderCell.xib */,
+				CD2FA0A821AE0FB400E0BADA /* SeparatorCell.swift */,
+				CD2FA0B021AE0FB400E0BADA /* SeparatorCell.xib */,
+				CD2FA0AC21AE0FB400E0BADA /* TextCell.swift */,
+				CD2FA0AF21AE0FB400E0BADA /* TextCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CD2FA0A621AE0ADD00E0BADA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FA0BC21AE0FDE00E0BADA /* ArtistViewModel.swift */,
+				CD2FA0BE21AE0FDE00E0BADA /* CollectionViewModel.swift */,
+				CD2FA0BD21AE0FDE00E0BADA /* HeaderViewModel.swift */,
+				CD2FA0BB21AE0FDE00E0BADA /* SeparatorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CD2FA0D421AE293200E0BADA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CD2FA0D921AE294F00E0BADA /* CollectionViewCell.swift */,
+				CD2FA0D721AE294F00E0BADA /* CollectionViewCell+Reuse.swift */,
+				CD2FA0D621AE294F00E0BADA /* CollectionViewController.swift */,
+				CD2FA0D521AE294E00E0BADA /* CollectionViewSection.swift */,
+				CD2FA0DB21AE294F00E0BADA /* CollectionViewSource.swift */,
+				CD2FA0DA21AE294F00E0BADA /* CollectionViewViewModel.swift */,
+				CD2FA0D821AE294F00E0BADA /* Grid.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2FA09021ADDE7C00E0BADA /* Build configuration list for PBXNativeTarget "Musy" */;
 			buildPhases = (
+				CCEEB40B9D17F16FB58E5324 /* [CP] Check Pods Manifest.lock */,
 				CD2FA07721ADDE7700E0BADA /* Sources */,
 				CD2FA07821ADDE7700E0BADA /* Frameworks */,
 				CD2FA07921ADDE7700E0BADA /* Resources */,
+				5233F733073A86E704F0A01A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +290,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2FA0B721AE0FB400E0BADA /* ArtistCell.xib in Resources */,
+				CD2FA0B121AE0FB400E0BADA /* HeaderCell.xib in Resources */,
 				CD2FA08C21ADDE7C00E0BADA /* LaunchScreen.storyboard in Resources */,
+				CD2FA0BA21AE0FB400E0BADA /* SeparatorCell.xib in Resources */,
+				CD2FA0B821AE0FB400E0BADA /* CollectionCell.xib in Resources */,
+				CD2FA0B921AE0FB400E0BADA /* TextCell.xib in Resources */,
 				CD2FA08921ADDE7C00E0BADA /* Assets.xcassets in Resources */,
 				CD2FA08421ADDE7700E0BADA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +303,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5233F733073A86E704F0A01A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Musy/Pods-Musy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeableTabBarController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Musy/Pods-Musy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCEEB40B9D17F16FB58E5324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Musy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD2FA07721ADDE7700E0BADA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1E7D2621AE414500A9CCA0 /* VideosViewController.swift in Sources */,
 				CD2FA08121ADDE7700E0BADA /* ViewController.swift in Sources */,
+				CD2FA0B521AE0FB400E0BADA /* HeaderCell.swift in Sources */,
+				CD2FA0A321AE049B00E0BADA /* Track.swift in Sources */,
+				CD2FA0B421AE0FB400E0BADA /* ArtistCell.swift in Sources */,
+				CD2FA0DE21AE294F00E0BADA /* CollectionViewCell+Reuse.swift in Sources */,
+				CD2FA0E021AE294F00E0BADA /* CollectionViewCell.swift in Sources */,
+				CD2FA0E221AE294F00E0BADA /* CollectionViewSource.swift in Sources */,
+				CD2FA0C221AE0FDE00E0BADA /* CollectionViewModel.swift in Sources */,
+				CD2FA0B321AE0FB400E0BADA /* CollectionCell.swift in Sources */,
+				CD2FA0E421AE33BD00E0BADA /* UserProfileViewController.swift in Sources */,
+				CD2FA0DC21AE294F00E0BADA /* CollectionViewSection.swift in Sources */,
+				CD2FA09B21ADF9FB00E0BADA /* Genre.swift in Sources */,
+				CD2FA0B221AE0FB400E0BADA /* SeparatorCell.swift in Sources */,
+				CD2FA0E121AE294F00E0BADA /* CollectionViewViewModel.swift in Sources */,
+				CD2FA09421ADE8D800E0BADA /* MainTabBarViewController.swift in Sources */,
+				CD2FA0DF21AE294F00E0BADA /* Grid.swift in Sources */,
+				CD2FA0DD21AE294F00E0BADA /* CollectionViewController.swift in Sources */,
+				CD2FA0A121ADFFE600E0BADA /* Album.swift in Sources */,
+				CD2FA0C021AE0FDE00E0BADA /* ArtistViewModel.swift in Sources */,
 				CD2FA07F21ADDE7700E0BADA /* AppDelegate.swift in Sources */,
+				CD2FA09F21ADFF6A00E0BADA /* Artist.swift in Sources */,
+				CD2FA0C121AE0FDE00E0BADA /* HeaderViewModel.swift in Sources */,
+				CD2FA09621ADE97400E0BADA /* HomeViewController.swift in Sources */,
+				CD2FA09D21ADFB1E00E0BADA /* Playlist.swift in Sources */,
+				CD2FA0BF21AE0FDE00E0BADA /* SeparatorViewModel.swift in Sources */,
+				CD2FA0A521AE09F400E0BADA /* MusicPlayerViewController.swift in Sources */,
+				CD2FA0B621AE0FB400E0BADA /* TextCell.swift in Sources */,
 				CD2FA08721ADDE7700E0BADA /* Musy.xcdatamodeld in Sources */,
+				CD1E7D2221AE405600A9CCA0 /* SearchViewController.swift in Sources */,
+				CD1E7D2A21AE488300A9CCA0 /* ArtisProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +539,7 @@
 		};
 		CD2FA09121ADDE7C00E0BADA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F36FDEA697CE0BA213884DD /* Pods-Musy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +557,7 @@
 		};
 		CD2FA09221ADDE7C00E0BADA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C5A0B2F0158CA30027C986 /* Pods-Musy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
