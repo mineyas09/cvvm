@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct Album {
+    let id:Int
+    let title:String
+    let picture:String
+    let genre_id:Int
+    let label:String
+    let release_Date:String
+    let fan:Int
+    let tracklist: String
+    let artist:Artist
+}
