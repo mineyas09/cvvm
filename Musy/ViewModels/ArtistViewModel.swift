@@ -18,7 +18,7 @@ class ArtistViewModel: CollectionViewViewModel<ArtistCell, Artist> {
     
     override func config(cell: ArtistCell, data: Artist, indexPath: IndexPath, grid: Grid) {
         cell.textLabel.text = data.name
-        cell.imageView.image = UIImage(named: data.picture)
+        cell.imageView.image = UIImage(named: data.picture!)
     }
     
     override func size(data: Artist, indexPath: IndexPath, grid: Grid, view: UIView) -> CGSize {

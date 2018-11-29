@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlamofireObjectMapper
 
 class ArtistCell: CollectionViewCell {
     
@@ -39,7 +40,7 @@ class ArtistCell: CollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        self.setCircularImageView()
+     //   self.setCircularImageView()
     }
     
     func setCircularImageView() {

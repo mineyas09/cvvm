@@ -7,11 +7,35 @@
 //
 
 import Foundation
+import ObjectMapper
 
-struct  Artist {
-  //  let id:Int
-    let name:String
-    let picture:String
-   // let tracklist:String
-   // let nb_fan:Int
+
+
+class Artist: Mappable {
+    var data:[data]?
+    
+    required init?(map: Map) {
+    }
+    
+    func mapping(map: Map) {
+        data <- map["data"]
+       
+    }
+    
 }
+class data:Mappable{
+    required init?(map: Map) {
+            }
+    
+    func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+        picture <- map["picture_medium"]
+    }
+    
+    var id:Int?
+    var name:String?
+    var picture:String?
+}
+
+

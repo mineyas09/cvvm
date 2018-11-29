@@ -47,6 +47,8 @@
 		CD2FA0E121AE294F00E0BADA /* CollectionViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0DA21AE294F00E0BADA /* CollectionViewViewModel.swift */; };
 		CD2FA0E221AE294F00E0BADA /* CollectionViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0DB21AE294F00E0BADA /* CollectionViewSource.swift */; };
 		CD2FA0E421AE33BD00E0BADA /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA0E321AE33BD00E0BADA /* UserProfileViewController.swift */; };
+		CDE2253321AF3D0500961D56 /* PlaylistCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2253221AF3D0500961D56 /* PlaylistCelll.swift */; };
+		CDE2253521AF3D9000961D56 /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE2253421AF3D9000961D56 /* PlaylistCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		CD2FA0DA21AE294F00E0BADA /* CollectionViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewViewModel.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewViewModel.swift"; sourceTree = "<group>"; };
 		CD2FA0DB21AE294F00E0BADA /* CollectionViewSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewSource.swift; path = "../../../Samples/cvvm-master/CVVM/CVVM/Framework/CollectionViewSource.swift"; sourceTree = "<group>"; };
 		CD2FA0E321AE33BD00E0BADA /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		CDE2253221AF3D0500961D56 /* PlaylistCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCelll.swift; sourceTree = "<group>"; };
+		CDE2253421AF3D9000961D56 /* PlaylistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaylistCell.xib; path = ../../../PlaylistCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,8 @@
 				CD2FA0B021AE0FB400E0BADA /* SeparatorCell.xib */,
 				CD2FA0AC21AE0FB400E0BADA /* TextCell.swift */,
 				CD2FA0AF21AE0FB400E0BADA /* TextCell.xib */,
+				CDE2253221AF3D0500961D56 /* PlaylistCelll.swift */,
+				CDE2253421AF3D9000961D56 /* PlaylistCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 				CD2FA0BA21AE0FB400E0BADA /* SeparatorCell.xib in Resources */,
 				CD2FA0B821AE0FB400E0BADA /* CollectionCell.xib in Resources */,
 				CD2FA0B921AE0FB400E0BADA /* TextCell.xib in Resources */,
+				CDE2253521AF3D9000961D56 /* PlaylistCell.xib in Resources */,
 				CD2FA08921ADDE7C00E0BADA /* Assets.xcassets in Resources */,
 				CD2FA08421ADDE7700E0BADA /* Main.storyboard in Resources */,
 			);
@@ -389,6 +396,7 @@
 				CD2FA09F21ADFF6A00E0BADA /* Artist.swift in Sources */,
 				CD2FA0C121AE0FDE00E0BADA /* HeaderViewModel.swift in Sources */,
 				CD2FA09621ADE97400E0BADA /* HomeViewController.swift in Sources */,
+				CDE2253321AF3D0500961D56 /* PlaylistCelll.swift in Sources */,
 				CD2FA09D21ADFB1E00E0BADA /* Playlist.swift in Sources */,
 				CD2FA0BF21AE0FDE00E0BADA /* SeparatorViewModel.swift in Sources */,
 				CD2FA0A521AE09F400E0BADA /* MusicPlayerViewController.swift in Sources */,

@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+import Alamofire
+import AlamofireObjectMapper
+import AlamofireImage
 
 
 class HomeViewController: CollectionViewController {
@@ -21,9 +23,12 @@ class HomeViewController: CollectionViewController {
         let grid = Grid(columns: 4, margin: UIEdgeInsets(all: 8))
         
         let artistSection = CollectionViewSection(items: [self.createHorizontal()])
-        artistSection.header = HeaderViewModel("Top metal artists")
+        artistSection.header = HeaderViewModel("Top artists")
+        
+        let playlistSection = CollectionViewSection(items: [self.createHorizontal()])
+        playlistSection.header = HeaderViewModel("Playlist picks")
 
-        self.source  = CollectionViewSource(grid: grid, sections: [artistSection])
+        self.source  = CollectionViewSource(grid: grid, sections: [playlistSection,artistSection])
         self.collectionView.reloadData()
 
   
@@ -52,6 +57,10 @@ class HomeViewController: CollectionViewController {
         
         return CollectionViewModel(source)
         
+        
+    }
+    
+    func getArtist(){
         
     }
 }
